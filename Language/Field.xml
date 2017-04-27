@@ -1,0 +1,22 @@
+<export>
+  <Item keyed_name="z_bg_color" config_id="2B3817629D1D412B95047C4BEC15BA08">
+    <property __name="label" ja="背景色" />
+    <property __name="legend" ja="" />
+  </Item>
+  <Item keyed_name="z_active" config_id="65FEF44A507F4D85A5D972CF0A728191">
+    <property __name="label" ja="有効" />
+    <property __name="legend" ja="" />
+  </Item>
+  <Item keyed_name="item_info" config_id="7457F6B6652645ED8ADE4C923CA22915">
+    <property __name="label" ja="" />
+    <property __name="legend" ja="" />
+  </Item>
+  <Item keyed_name="z_name" config_id="7A0D481706E848AF94F075A630DB2F82">
+    <property __name="label" ja="名称" />
+    <property __name="legend" ja="" />
+  </Item>
+  <Item keyed_name="z_description" config_id="988036294AB74227B824213F765D57A2">
+    <property __name="label" ja="説明" />
+    <property __name="legend" ja="" />
+  </Item>
+</export>

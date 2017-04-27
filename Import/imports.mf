@@ -1,0 +1,9 @@
+<imports>
+  <package name="ExtCommon" path="ExtCommon\Import" />
+  <package name="Environment notification" path="Environment notification\Import">
+    <dependson name="ExtCommon" />
+  </package>
+  <package name="com.aras.innovator.cui_default" path=".\">
+    <dependson name="Environment notification" />
+  </package>
+</imports>

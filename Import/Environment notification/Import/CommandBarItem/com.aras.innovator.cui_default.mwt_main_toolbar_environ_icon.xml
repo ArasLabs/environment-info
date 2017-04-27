@@ -1,0 +1,9 @@
+﻿<AML>
+ <Item type="CommandBarButton" id="FDF5BB26DD264E509E5E95773E24B170" action="add">
+  <additional_data>{}</additional_data>
+  <image>../Images/environ/exclamation-circle.svg</image>
+  <on_init_handler keyed_name="Ext_Environ_Icon" type="Method">7023FCCDBF81495BB4232EFE705265B0</on_init_handler>
+  <tooltip_template xml:lang="en">ex_tooltip</tooltip_template>
+  <name>com.aras.innovator.cui_default.mwt_main_toolbar_environ_icon</name>
+ </Item>
+</AML>

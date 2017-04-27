@@ -1,0 +1,52 @@
+﻿<AML>
+ <Item type="Method" id="7023FCCDBF81495BB4232EFE705265B0" action="add">
+  <execution_allowed_to keyed_name="World" type="Identity">A73B655731924CD0B027E4F4D5FCC0A9</execution_allowed_to>
+  <method_code><![CDATA[var inn = this.newInnovator();
+
+// 背景色情報、Tooltip情報の取得
+var item = inn.newItem("Ext_Environ_Icon", "get");
+item.setAttribute("select", "z_name,z_bg_color,z_description");
+item.setProperty("z_active", "1");
+item = item.apply();
+
+// 取得できない場合は処理を抜ける
+if(item.isEmpty()) { return; }
+
+// 複数取得できた場合を考慮し、最初の一件目を採用する
+var op = item.getItemByIndex(0);
+
+// titleがex_tooltipで有るものの準備完了を待ってTooltip情報の書き換え
+top.createTooltip=function () {
+    var _db = aras.getDatabase();
+    var _svr = aras.getServerBaseURL();
+    var _doc = ('main' in top)?main.document:document;
+    
+    if(!_doc.querySelector('span[id*="icon_label"]')){
+        setTimeout("top.createTooltip()",0);
+        return;
+    }
+    
+    var _label = _doc.querySelector('span[id*="_environ_icon_label"]');
+    _label.innerHTML=op.getProperty("z_name");
+    
+    
+    // Tooltip情報のノード作成完了待ち
+    if(!_doc.querySelector('span[id*="_environ_icon"]')){
+        setTimeout("top.createTooltip()",0);
+        return;
+    }
+
+    // 表示するTooltip情報の作成
+    var msg = op.getProperty("z_name") + "\n" + "User:" + aras.getLoginName() + "\n" + "DB:" + _db + "\n" + "Server:" + _svr + "\n" + "Description:" + op.getProperty("z_description","");
+    var elm = _doc.querySelector('span[id*="_environ_icon"]');
+    elm.setAttribute("title", msg);
+    return;
+};
+top.createTooltip();
+
+// 取得したアイコンの背景情報を連想配列形式で返す
+return{cui_style:"background-color: " + op.getProperty("z_bg_color","") + ";"};]]></method_code>
+  <method_type>JavaScript</method_type>
+  <name>Ext_Environ_Icon</name>
+ </Item>
+</AML>

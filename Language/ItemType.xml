@@ -1,0 +1,6 @@
+<export>
+  <Item keyed_name="Ext_Environ_Icon" config_id="A5C4A411334646568B328409E18DD2D3">
+    <property __name="label" ja="環境情報表示設定" />
+    <property __name="label_plural" ja="環境情報表示設定" />
+  </Item>
+</export>
