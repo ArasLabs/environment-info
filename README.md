@@ -15,13 +15,13 @@ This project and the following release notes have been migrated from the old Ara
 
 Release | Notes
 --------|--------
-[v11SP6](https://github.com/ArasLabs/set-tab-color/releases/tag/v11SP6) | Support version 11SP6. Instructions are described in the ReadMe.pdf
+[v11SP6](https://github.com/ArasLabs/environment-info/releases/tag/v11SP6) | Support version 11SP6. Instructions are described in the ReadMe.pdf
 
 #### Supported Aras Versions
 
 Project | Aras
 --------|------
-[v11SP6](https://github.com/ArasLabs/set-tab-color/releases/tag/v11SP6) | 11.0 SP6
+[v11SP6](https://github.com/ArasLabs/environment-info/releases/tag/v11SP6) | 11.0 SP6
 
 ## Installation
 
