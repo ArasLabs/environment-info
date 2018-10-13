@@ -34,7 +34,7 @@ Project | Aras
 2. Aras Package Import tool
 3. **EnvironmentInfo** import package
 
-### Install Steps
+### Installation Steps
 
 1. Backup your database and store the BAK file in a safe place.
 2. Open up the Aras Package Import tool.
