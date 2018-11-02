@@ -1,8 +1,8 @@
 # Environment Information
 
-* Developers of Aras Innovator · As a function from the viewpoint of the user side, "Environment Notification" function is implemented.
+* Developers of Aras Innovator: As a function from the viewpoint of the user side, "Environment Notification" function is implemented.
 * A new "Environment Notification" icon has been added to the toolbar at the top of the screen, and by overlaying the mouse cursor, environmental detail information is displayed on the popup.
-* It is also possible to display the environment information icon in the background color set in both "Main screen" and "Item detail screen", you can check the environment at a glance. By doing this, you can reduce mistakes in developing or verifying each environment and each logged-in user.
+* It is also possible to display the environment information icon in the background color set in both "Main screen" and "Item detail screen" so you can check the environment at a glance. By doing this, you can reduce mistakes in developing or verifying each environment and each logged-in user.
 
 
 * Aras Innovatorの開発者・ユーザー側の視点に立っての機能として、「環境通知」機能を実装しています。
@@ -53,7 +53,7 @@ Japanese language settings may be applied using the contents of the Language dir
 
 ## Usage
 
-Review the [ReadMe-Environment Information.pdf](./Documentation/ReadMe-Environment Information.pdf) for information on using the project. {[English translation](./Documentation/ReadMe-Environment Information-English.docx)}
+Review the [ReadMe-Environment Information.pdf](./Documentation/ReadMe-Environment%20Information.pdf) for information on using the project. {[English translation](./Documentation/ReadMe-Environment%20Information-English.docx)}
 
 ## Contributing
 
